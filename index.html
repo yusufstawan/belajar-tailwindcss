@@ -5,16 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yusuf Setiyawan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img class="fixed top-0 left-0 w-full h-full object-cover" src="images/background.jfif" alt="background" />
-    <div class="fixed top-0 left-0 w-full h-full bg-purple-500 opacity-75"></div>
-    <div class="h-full relative">
-      <div class="flex">
-        <img class="w-56 h-56 rounded-full" src="images/avatar.jfif" alt="avatar" />
-        <div class="ml-16">
-          <h1>Yusuf Setiyawan</h1>
+    <img class="fixed top-0 left-0 w-full h-full object-cover" src="images/background.jpg" alt="background" />
+    <div class="fixed top-0 left-0 w-full h-full bg-teal-700 opacity-75"></div>
+    <div class="h-screen relative flex items-center justify-center">
+      <div class="flex lg:w-8/12 w-10/12 flex-col md:flex-row">
+        <img class="w-56 h-56 rounded-full mb-8 md:mb-0" src="images/avatar.png" alt="avatar" />
+        <div class="md:ml-16 text-white">
+          <h1 class="text-3xl font-bold">Yusuf Setiyawan</h1>
+          <div class="uppercase tracking-widest font-light text-xs">Front-end Developer</div>
+          <p class="mt-4 text-lg leading-relaxed">Kartu nama ini dibuat menggunakan tailwindCSS versi 3. Jika kamu ingin membuatnya bisa menggunakan source code pada Github saya melalui link dibawah</p>
+          <div class="flex mt-10 items-center">
+            <!-- Button -->
+            <a class="text-center bg-pink-500 text-white rounded px-10 py-3 mr-4" href="https://github.com/yusufstawan/belajar-tailwindcss">Github</a>
+            <!-- Fb -->
+            <a href="#"
+              ><svg class="mx-4" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M18.75 2.08333H15.625C14.2437 2.08333 12.9189 2.63206 11.9422 3.60881C10.9654 4.58557 10.4167 5.91033 10.4167 7.29166V10.4167H7.29167V14.5833H10.4167V22.9167H14.5833V14.5833H17.7083L18.75 10.4167H14.5833V7.29166C14.5833 7.01539 14.6931 6.75044 14.8884 6.55509C15.0838 6.35974 15.3487 6.25 15.625 6.25H18.75V2.08333Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <!-- Twitter -->
+            <a href="#">
+              <svg class="mx-4" width="23" height="19" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M22.9583 0.125007C21.9608 0.828629 20.8564 1.36679 19.6875 1.71876C19.0601 0.997414 18.2264 0.486145 17.299 0.254097C16.3716 0.0220492 15.3953 0.0804193 14.5022 0.421313C13.609 0.762206 12.8421 1.36918 12.3052 2.16013C11.7682 2.95108 11.4872 3.88786 11.5 4.84376V5.88542C9.66941 5.93289 7.85549 5.5269 6.2198 4.7036C4.58411 3.8803 3.17741 2.66525 2.125 1.16667C2.125 1.16667 -2.04167 10.5417 7.33333 14.7083C5.18805 16.1646 2.63245 16.8947 0.0416641 16.7917C9.41666 22 20.875 16.7917 20.875 4.81251C20.874 4.52235 20.8461 4.23292 20.7917 3.94792C21.8548 2.89948 22.605 1.57575 22.9583 0.125007Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <!-- Instagram -->
+            <a href="#"
+              ><svg class="mx-4" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.7083 2.08333H7.29166C4.41518 2.08333 2.08333 4.41518 2.08333 7.29166V17.7083C2.08333 20.5848 4.41518 22.9167 7.29166 22.9167H17.7083C20.5848 22.9167 22.9167 20.5848 22.9167 17.7083V7.29166C22.9167 4.41518 20.5848 2.08333 17.7083 2.08333Z"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M16.6667 11.8437C16.7952 12.7107 16.6471 13.5961 16.2435 14.374C15.8399 15.1519 15.2012 15.7827 14.4184 16.1767C13.6355 16.5708 12.7484 16.7079 11.8831 16.5687C11.0178 16.4294 10.2185 16.0209 9.5988 15.4012C8.97909 14.7815 8.57056 13.9822 8.43133 13.1169C8.29209 12.2516 8.42924 11.3645 8.82326 10.5816C9.21728 9.7988 9.84812 9.16014 10.626 8.7565C11.4039 8.35285 12.2893 8.20477 13.1563 8.33333C14.0406 8.46446 14.8592 8.87652 15.4914 9.50865C16.1235 10.1408 16.5355 10.9594 16.6667 11.8437Z"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path d="M18.2292 6.77083H18.2396" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </div>
